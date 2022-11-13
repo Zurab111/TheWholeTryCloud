@@ -4,7 +4,7 @@ Feature: As a user, I should be able to remove files from the favorites and uplo
   Background:
     Given user on the dashboard page
     When the user clicks the "Files" module
-#  @regression
+  @regression
   Scenario: Verify users can add the folder
     And user clicks the add icon on the top
     And user click "new folder”
