@@ -27,7 +27,7 @@ public class US_3 {
 
     @When("the users log in with valid credentials")
     public void the_users_log_in_with_valid_credentials() {
-        loginPage.loginTryCloud(ConfigurationReader.getProperty("user1"), ConfigurationReader.getProperty("password"));
+        loginPage.loginTryCloud(ConfigurationReader.getProperty("user3"), ConfigurationReader.getProperty("password"));
     }
 
     @Then("Verify the user see the following modules:")

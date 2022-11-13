@@ -40,7 +40,8 @@ public class FilesPage extends BasePage {
 
     public void dropDownElementsSelection(String particularElement) {
         for (WebElement each : dropDownElements) {
-            if (each.getText().equals(particularElement))
+            if (each.getText().contains(particularElement))
+                BrowserUtils.sleep(3);
                 each.click();
             break;
 
@@ -54,6 +55,7 @@ public class FilesPage extends BasePage {
     public void leftModuleOptionsSelection(String particularElement) {
         for (WebElement each : filePageModuleOptions) {
             if (each.getText().equals(particularElement)) {
+                BrowserUtils.sleep(3);
                 each.click();
                 break;
             }

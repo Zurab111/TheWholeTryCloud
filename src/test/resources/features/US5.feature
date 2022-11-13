@@ -1,7 +1,7 @@
 Feature: As a user, I should be able to access to Files module - Favorites button
   User Story:  As a user, I should be able to add file to favorites.
 
-  @regression
+  @wip
   Scenario: Verify users to add files to Favorites
   Given user on the dashboard page
   When the user clicks the "Files" module
